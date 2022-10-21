@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    width: 98vw;
+    height: 800px;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerFlex {
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 500px;
+    border: 2px rgb(221, 16, 16) solid;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.containerFlex h2 {
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(17, 13, 233);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.string {
+    position: relative;
+    height: 30px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.text {
+    font-family: Roboto;
+    color: #fff;
+}
+
+.button {
+    position: relative;
+    top: 20px;
+    align-self: center;
+}
+
+.containerFlex button {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 135, 6);
+}
+
+.result {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    width: 600px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+}
