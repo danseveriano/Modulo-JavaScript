@@ -58,7 +58,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.compare {
     background-color: rgb(17, 135, 6);
+}
+
+.reset {
+    background-color: rgba(238, 191, 37, 0.921);
+}
+
+.compare:hover {
+    transition: 1s;
+    background-color: rgb(23, 45, 218);
+}
+
+.reset:hover {
+    transition: 1s;
+    background-color: rgb(147, 244, 247);
 }
 
 .result {
