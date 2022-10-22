@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="index4.js" defer></script>
+</head>
+
+<body class="container">
+    <main class="main">
+        <h1>CALCULADORA</h1>
+        <form class="form">
+            <div class="operator one">
+                <label for="operador1">Operador 1</label>
+                <input class="valorX" type="text" size="15" />
+            </div>
+            <div class="operator two">
+                <label for="operador2">Operador 2</label>
+                <input class="valorY" type="text" size="15" />
+            </div>
+            <div>
+                <select name="assunto" class="converter">
+                    <option value="empty" selected="selected" disabled>Selecione uma opção</option>
+                    <option class="add" value="adicionar">Adicionar (+)</option>
+                    <option class="sub" value="subtrair">Subtrair (-)</option>
+                    <option class="mult" value="multiplicar">Multiplicar (x)</option>
+                    <option class="div" value="dividir">Dividir (/)</option>
+                </select>
+            </div>
+            <p class="result"></p>
+            <button class="calculate" type="button" value="Calcular">Calcular</button>
+            <button class="reset" type="reset" value="Resetar">Limpar</button>
+        </form>
+    </main>
+</body>
+
+</html>
