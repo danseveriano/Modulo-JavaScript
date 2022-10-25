@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="index5.js" defer></script>
+</head>
+
+<body class="container">
+    <main class="main">
+        <section class="calc-imc">
+            <h1>Calculadora IMC</h1>
+            <form class="form" id="form">
+                <label for="kilos">
+                    Quilos</label>
+                <input name="kilos" id="kilos" class="kilos" placeholder="Peso atual" type="text" />
+                <label for="height">
+                    Altura</label>
+                <input name="height" id="height" class="height" placeholder="Altura" type="text" />
+                <button type="button" class="calc">Calcular</button>
+                <label for="imc">
+                    IMC</label>
+                <input disabled="disabled" name="imc" id="imc" class="imc" placeholder="IMC" type="text"/>
+                <label for="result">
+                    Classificação do IMC</label>
+                <input disabled="disabled" name="result" id="classification" class="classification" placeholder="Classificação" type="text"/>
+                <button type="reset" class="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
