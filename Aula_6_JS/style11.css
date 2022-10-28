@@ -1,0 +1,76 @@
+.container {
+    position: relative;
+    width: 98vw;
+    height: 900px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/background\ header.jpg);
+}
+
+.title {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.title h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    color: bisque;
+}
+
+.main {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    display: flex;
+}
+
+.classicCars {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 28px;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.figure {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 41%;
+    height: 78%;
+    background-image: url(./images/background\ figure.jpg);
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    border: rgb(51, 40, 40) solid 5px;
+}
+
+img {
+    position: absolute;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    height: 25px;
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

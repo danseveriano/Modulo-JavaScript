@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    width: 98vw;
+    height: 800px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    width: 25%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslategray;
+    border: rgb(90, 14, 14) solid 5px;
+    background-image: url(./images/ee8bbe11771102416ea137adba160069.jpg);
+}
+
+h1 {
+    position: relative;
+    top: -180px;
+    left: 0px;
+    padding: 0 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 49, 136);
+    width: 99%;
+    height: 50px;
+    border: rgb(22, 46, 93) solid 3px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+    position: relative;
+    top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+label {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(199, 194, 218);
+}
+
+label {
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    background-color: rgb(159, 149, 190);
+    border: rgb(24, 15, 65) solid 3px;
+}
