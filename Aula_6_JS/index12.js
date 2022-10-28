@@ -20,7 +20,7 @@ cep.addEventListener("input", function (event){
     switch (numbers.length) {
         case 6:
             if (cursor === 6 && event.inputType !== "deleteContentBackward") {
-                cep.setSelectionRange(cursor + 1, cursor + 1);
+                cep.setSelectionRange(cursor + 1);
                 break
             }
         default:
