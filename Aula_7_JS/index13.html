@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style13.css">
+</head>
+
+<body class="container">
+    <header class="title">
+        <h1>Cadastre-se</h1>
+    </header>
+    <main class="main">
+        <section>
+            <form class="form" id="people">
+                <label for="name">Nome: </label>
+                <input type="text" id="name">
+                <label for="birthDate">Data De Nascimento: </label>
+                <div>
+                    <input type="text" class="inputDay" maxlength="2" placeholder="xx" style="width:70px">
+                    <input type="text" class="inputMonth" maxlength="2" placeholder="xx" style="width:70px">
+                    <input type="text" class="inputYear" maxlength="4" placeholder="xxxx" style="width:85px">
+                </div>
+                <label for="weight">Peso: </label>
+                <input type="text" class="inputWeight">
+                <label for="heigth">Altura</label>
+                <input type="text" class="inputHeigth">
+                <label for="gender">Gênero</label>
+                <select name="gender" class="inputGender">
+                    <option value="gender" selected="selected" disabled>Selecione uma opção</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="other">Outro</option>
+                </select>
+                <br>
+                <button type="button" class="button">Cadastrar</button>
+                <br>
+                <button type="reset" class="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"><span>Feito por - <strong>Dan Severiano</strong></span></footer>
+    <script src="./index13.js"></script>
+</body>
+
+</html>
