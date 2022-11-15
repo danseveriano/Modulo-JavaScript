@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style14.css">
+</head>
+
+<body class="container">
+    <header class="title">
+        <h1>Cadastre-se</h1>
+    </header>
+    <main class="main">
+        <section>
+            <form class="form" id="people">
+                <label for="name">Nome: </label>
+                <input type="text" id="name" required="required" name="text" pattern="[a-z]+$">
+                <label for="birthDate">Data De Nascimento: </label>
+                <input type="date" class="birthDate">
+                <label for="weight">Peso: </label>
+                <input type="text" class="inputWeight" maxlength="7">
+                <label for="heigth">Altura</label>
+                <input type="text" class="inputHeigth" maxlength="4">
+                <label for="gender">Gênero</label>
+                <select name="gender" class="inputGender">
+                    <option value="Selecione" selected="selected" disabled>Selecione uma opção</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <br>
+                <button type="button" class="button">Cadastrar</button>
+                <br>
+                <button type="reset" class="reset">Limpar</button>
+            </form>
+        </section>
+        <section>
+            <form id="formResult">
+                <label for="name">Nome: </label>
+                <input type="text" id="nameHide" required="required" name="text" pattern="[a-z]+$">
+                <label for="birthDate">Data De Nascimento: </label>
+                <input type="text" class="birthHide">
+                <label for="weight">Peso: </label>
+                <input type="text" class="weightHide" maxlength="7">
+                <label for="heigth">Altura</label>
+                <input type="text" class="heigthHide" maxlength="4">
+                <label for="gender">Gênero</label>
+                <input name="gender" class="genderHide">
+            </form>
+        </section>
+    </main>
+    <footer class="footer"><span>Feito por - <strong>Dan Severiano</strong></span></footer>
+    <script src="./index14.js"></script>
+</body>
+
+</html>
