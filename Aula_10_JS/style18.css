@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: darkgrey;
+}
+header {
+    background-color: rgba(93, 2, 159, 0.983);
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 400;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: bisque;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border: 5px;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 3px;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: rgba(93, 2, 159, 0.983);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background-color: rgba(47, 2, 79, 0.983);
+}
+
+.content {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(204, 204, 204);
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(78, 110, 132);
+}
+
+table th, td {
+    padding: 1px 5px;
+    text-align: left;
+}
+
+table td img {
+    width: 20px;
+}
+
+.center {
+    text-align: center;
+}

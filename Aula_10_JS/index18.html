@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style18.css">
+  <script src="index18.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Controle de Estoque</h1>
+  </header>
+
+  <main>
+    <div class="title">
+      <h2>Produtos</h2>
+      <span>Lista de produtos da minha loja</span>
+    </div>
+
+    <div class="card">
+      <div class="lineInput">
+        <label>Produto</label>
+        <input type="text" id="produto" placeholder="Nome do produto">
+      </div>
+
+      <div class="lineInput">
+        <label>Descrição</label>
+        <textarea id="descrição" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="lineInput">
+        <label>Valor</label>
+        <input type="number" id="valor" placeholder="Valor do produto">
+      </div>
+
+      <button id="atualizar" onclick="produto.salvar()">Salvar</button>
+      <button onclick="produto.listar()">Listar Produtos</button>
+    </div>
+
+    <div class="content">
+      <table border = "1">
+        <thead>
+          <th class="center">ID</th>
+          <th>Produto</th>
+          <th>Valor</th>
+          <th class="center">Editar</th>
+          <th class="center">Excluir</th>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+</body>
+
+</html>
