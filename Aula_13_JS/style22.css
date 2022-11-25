@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+  }
+  
+  main {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./istockphoto-989794376-170667a.jpg);
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: blanchedalmond;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  hr {
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+  }
+  
+  .jogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .jogo button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #f7f7f7;
+  }
